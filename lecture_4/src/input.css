@@ -4,7 +4,7 @@
 
 
 .background-image{
-    background-image: url(./img/6_img1.jpg);
+    background-image: url(./img/Hero-section_img1.jpg);
     position: relative;
 }
 .background-image::after{
