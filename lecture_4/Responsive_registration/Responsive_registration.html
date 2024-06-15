@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
-<body>
+<body class="bg-slate-200">
     <div class="h-svh">
         <div class="flex justify-center">
-            <div class="h-svh w-[80%] flex mt-10 rounded-xl overflow-hidden">
-                <div class="login bg-slate-100  h-full w-[40%]">
+            <div class="h-svh w-[80%] bg-white   flex rounded-xl overflow-hidden">
+                <div class="login h-full w-[40%] flex flex-col items-center">
                     <div class="flex flex-col justify-center items-center mt-8 ">
                         <div class="top w-72 ">
                             <div class="flex gap-2 justify-center text-blue-400">
@@ -53,13 +53,15 @@
                     <div class="bottom h-80 flex justify-center">
                         <div class="h-72 w-80 flex flex-col items-center">
                             <form action="">
-                                <input type="text" placeholder="Email" class="pl-5 py-3 w-full rounded-lg mb-5 font-bold">
-                                <input type="text" placeholder="Password" class="pl-5 py-3 w-full rounded-lg font-bold">
+                                <input type="email" placeholder="Email" required class="pl-5 py-3 w-full rounded-lg mb-5 font-bold">
+                                <input type="password" placeholder="Password" required class="pl-5 py-3 w-full rounded-lg font-bold">
                             </form>
-                            <button class="bg-blue-500 text-white flex justify-center rounded pl-5 py-3 w-full mt-5 ">
+                        
+                                <button class="bg-blue-500 text-white flex justify-center rounded pl-5 py-3 w-full mt-5 ">
                                 <i class="fa-solid fa-user-plus mt-1.5 mr-2"></i>
                                 Sign Up
-                            </button>
+                                </button>
+                        
                             <div class="mt-5  w-full">
                                 <p class="text-[12px]">I agree to abideby templatan's <span class="border-b-2 border-dotted border-sky-900">Terms of Service</span> and its <span class="ml-28 border-b-2  border-dotted border-sky-900">Privacy Policy</span></p>
                             </div>
@@ -67,7 +69,7 @@
                     </div>
                 </div>
                 <div class="img h-full w-[60%] bg-slate-300 flex justify-center items-center">
-                    <img src="img/Responsive_registration.png" class="w-[500px] h-[400px]" alt="">
+                    <img src="img/Responsive_registration.png" class="w-full" alt="">
                 </div>
             </div>
         </div>
