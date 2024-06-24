@@ -739,6 +739,30 @@ video {
   top: 0.75rem;
 }
 
+.left-3 {
+  left: 0.75rem;
+}
+
+.top-6 {
+  top: 1.5rem;
+}
+
+.top-16 {
+  top: 4rem;
+}
+
+.top-40 {
+  top: 10rem;
+}
+
+.top-96 {
+  top: 24rem;
+}
+
+.top-60 {
+  top: 15rem;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -1220,6 +1244,10 @@ video {
   height: 100svh;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .min-h-\[450px\] {
   min-height: 450px;
 }
@@ -1350,6 +1378,26 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-44 {
+  width: 11rem;
+}
+
+.w-\[30rem\] {
+  width: 30rem;
+}
+
+.w-\[35rem\] {
+  width: 35rem;
 }
 
 .max-w-\[1140px\] {
@@ -2663,6 +2711,11 @@ video {
   background-color: rgb(51 65 85 / var(--tw-bg-opacity));
 }
 
+.bg-slate-950 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 6 23 / var(--tw-bg-opacity));
+}
+
 .bg-stone-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(214 211 209 / var(--tw-bg-opacity));
@@ -2854,6 +2907,10 @@ video {
   padding: 1.25rem;
 }
 
+.p-8 {
+  padding: 2rem;
+}
+
 .px-10 {
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -2967,6 +3024,18 @@ video {
 
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pr-8 {
+  padding-right: 2rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
+.pr-36 {
+  padding-right: 9rem;
 }
 
 .text-left {
@@ -3947,6 +4016,43 @@ video {
       max-width: 1536px;
     }
   }
+}
+
+.before\:absolute::before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:-left-28::before {
+  content: var(--tw-content);
+  left: -7rem;
+}
+
+.before\:z-0::before {
+  content: var(--tw-content);
+  z-index: 0;
+}
+
+.before\:h-full::before {
+  content: var(--tw-content);
+  height: 100%;
+}
+
+.before\:w-\[400px\]::before {
+  content: var(--tw-content);
+  width: 400px;
+}
+
+.before\:skew-x-\[15deg\]::before {
+  content: var(--tw-content);
+  --tw-skew-x: 15deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.before\:bg-yellow-500::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 179 8 / var(--tw-bg-opacity));
 }
 
 .after\:absolute::after {
