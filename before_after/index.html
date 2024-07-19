@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .demo1{
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            border: 2px solid black;
+            border-radius: 50%;
+
+            background-image: conic-gradient(yellow var(--p),black 10%);
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .demo1::before{
+            content: '90%';
+            color: white;
+            height: 170px;
+            width: 170px;
+            border: 2px solid red;
+            /* z-index: 5; */
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="demo1" style="--p:90%"></div>
+</body>
+</html>
